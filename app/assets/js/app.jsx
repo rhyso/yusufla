@@ -51,10 +51,10 @@ let App = class App extends React.Component {
 												<a href="/">HOME</a>
 												</li>
 											<li>
-												<a href="/">LISTEN</a>
+												<a href="#listen-block">LISTEN</a>
 											</li>
 											<li>
-												<a href="/">LIVE</a>
+												<a href="#live-block">LIVE</a>
 											</li>
 											<li>
 												<a href="mailto:rhyswork@gmail.com">BOOK</a>
@@ -71,7 +71,7 @@ let App = class App extends React.Component {
 						</div>
 
 						<div className="row">
-						<div className="card half black livedates">
+						<div className="card half black livedates" id="live-block">
 								<h2>live. <img src="./assets/img/listen.png" /></h2>
 									<ul>
 									<li>17 MARCH <span className="bluesoft">/-/</span> Sofar Sounds (Secret Venue)</li>
@@ -82,12 +82,12 @@ let App = class App extends React.Component {
 						</div>
 
 						<div className="card half newsletter">
-							<a className="twitter-timeline" data-height="320" data-chrome="nofooter noheader transparent" href="https://twitter.com/yusuflatheband">Tweets by yusuflatheband</a> 			
+							<a className="twitter-timeline" data-height="320" data-chrome="nofooter noheader transparent" href="https://twitter.com/yusuflatheband">Tweets by yusuflatheband</a>
 						</div>
 					</div>
 
 
-						<div className="row card listen">
+						<div className="row card listen" id="listen-block">
 							<iframe width="100%" height="450" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/145674817&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 						</div>
 
